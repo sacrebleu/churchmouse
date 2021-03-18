@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    check_please (0.5.5)
+      table_print
+    diff-lcs (1.4.4)
+    httparty (0.18.1)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    json (2.3.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2021.0225)
+    multi_xml (0.6.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
+    table_print (1.5.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  check_please
+  httparty (= 0.18.1)
+  json
+  rspec-core (= 3.10.1)
+  rspec-expectations (= 3.10.1)
+
+BUNDLED WITH
+   2.1.4
